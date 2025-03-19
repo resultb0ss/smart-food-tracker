@@ -16,7 +16,6 @@ import com.example.foodtracker.ui.theme.FoodTrackerTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             FoodTrackerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
